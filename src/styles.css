@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 50px;
+  padding: 0;
+  background-color: #F0D5DF;
+  background-image: url(../src/public/trumpet.gif);
+}
+
+.square {
+  background-image: url(../src/public/bouncycat.gif);
+  background-size: 140px 140px;
+  border: 2px solid #ff009d;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 54px;
+  height: 120px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 120px;
+  
+}
+
+.square:hover {
+  background-color: #fa9fe6;
+  transform:rotate(360deg);
+  transition: all 0.8s ease-in-out 0s;
+  
+}
+
+
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.title1{
+  margin-top: 0px;
+  margin-left:40px;
+  padding: 0px;
+ 
+}
+
+.status {
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  width: 100%;
+  
+}
+
+.game-info {
+  margin-left: 50px;
+
+  width:20%
+}
+
+.laser-cat {
+  margin-left:0px;
+  width: 40%;
+
+}
+
+.gameContainer {
+  display: flex;
+}
+
+.game-board {
+  font-size: 25px;
+  font-family: Copperplate, Fantasy;
+  color: #eb576b;
+  text-shadow:  1px 1px 15px rgb(255, 255, 255);
+
+
+}
+
+.button {
+  background-color: #eb576b;
+  font-size: 25px;
+  font-family: Copperplate, Fantasy;
+  color: #e7b7be;
+  margin-top: 50px;
+}
+
+.moves {
+
+  background-color: rgb(235, 221, 221);
+  width:  100px;
+  height: 100px
+}
